@@ -10,6 +10,7 @@
 
 ## manual for freeSwitch master (1.8)
 
+```bash
 defaults write com.apple.finder AppleShowAllFiles YES
 
 cd /usr/local                                 // Change to the /usr/local directory
@@ -22,10 +23,15 @@ brew install autoconf automake libtool
 
 ./configure
 
+```
+
 fix (missing) :
 
 (configure: error: Library requirements (speex >= 1.2rc1 speexdsp >= 1.2rc1) not met; consider adjusting the PKG_CONFIG_PATH environment variable if your libraries are in a nonstandard prefix so pkg-config can find them.)
 
+```
+brew install speex
+```
 
 
 
