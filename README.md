@@ -16,7 +16,9 @@ A "User Agent" ("UA") is an application used for handling a certain network prot
 https://www.cnblogs.com/welhzh/p/6782297.html
 
 
+
 ## manual for FREESwitch master (1.8)
+___________________________________________________________________
 
 "Don't modify it while freeswitch is running" conf/freeswitch.xml .
 
@@ -42,6 +44,18 @@ fix (missing) :
 ```
 brew install speex
 ```
+
+Note : 
+
+Also you should NEVER override local_ip_v4, it will only get reset at some point. 
+
+tool from bin 
+'/usr/local/freeswitch/certs/CA/cakey.pem'
+
+writing new private key to '/tmp/fs-ca-1230-20181207135330.key'
+
+LIKE ECHO (from freeswitch terminal)
+eval $${local_ip_v4}
 
 ## PJSIP
 
