@@ -6,9 +6,19 @@
 ## Theory
 
 - ITSPs (Internet Telephony Service Providers). 
+- FQDN (fully qualified domain name).
+
+A "User Agent" ("UA") is an application used for handling a certain network protocol; the network protocol in <b>Sofia's</b> case is SIP. Sofia is the general name of any User Agent in FreeSWITCH using the SIP network protocol.
 
 
-## manual for freeSwitch master (1.8)
+
+## list :
+https://www.cnblogs.com/welhzh/p/6782297.html
+
+
+## manual for FREESwitch master (1.8)
+
+"Don't modify it while freeswitch is running" conf/freeswitch.xml .
 
 ```bash
 defaults write com.apple.finder AppleShowAllFiles YES
@@ -33,12 +43,7 @@ fix (missing) :
 brew install speex
 ```
 
-
-
-## help links
-
-list :
-https://www.cnblogs.com/welhzh/p/6782297.html
+## PJSIP
 
 redicertion in pjsip:
 https://trac.pjsip.org/repos/wiki/SIP_Redirection?format=pdf
