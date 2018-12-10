@@ -1,8 +1,13 @@
-
+----------------------------------------------------------
+----------------------------------------------------------
 # sip-doc
+----------------------------------------------------------
+----------------------------------------------------------
+
 
 ## Nikola Lukic tests
 
+----------------------------------------------------------
 ## Theory
 
 - ITSPs (Internet Telephony Service Providers). 
@@ -10,15 +15,17 @@
 
 A "User Agent" ("UA") is an application used for handling a certain network protocol; the network protocol in <b>Sofia's</b> case is SIP. Sofia is the general name of any User Agent in FreeSWITCH using the SIP network protocol.
 
+DSN : Data Source Names. 
 
 
 ## list :
 https://www.cnblogs.com/welhzh/p/6782297.html
+----------------------------------------------------------
 
 
 
+----------------------------------------------------------
 ## manual for FREESwitch master (1.8)
-___________________________________________________________________
 
 "Don't modify it while freeswitch is running" conf/freeswitch.xml .
 
@@ -57,7 +64,13 @@ writing new private key to '/tmp/fs-ca-1230-20181207135330.key'
 LIKE ECHO (from freeswitch terminal)
 eval $${local_ip_v4}
 
+Database connections are defined with DSN in XML configuration parameters like "core-db-dsn" and "odbc-dsn".
+
+----------------------------------------------------------
+
+----------------------------------------------------------
 ## PJSIP
+
 
 redicertion in pjsip:
 https://trac.pjsip.org/repos/wiki/SIP_Redirection?format=pdf
@@ -71,3 +84,8 @@ EARLY
 
 if answer is 200
 CONFIRMED
+
+to the 6xx 
+
+
+----------------------------------------------------------
