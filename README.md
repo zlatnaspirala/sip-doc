@@ -19,6 +19,8 @@ A "User Agent" ("UA") is an application used for handling a certain network prot
 
 DSN : Data Source Names. 
 
+A.C.L. stands for Access Control List and is a list of permissions associated with an object. The list defines what network entities are allowed to access the object.
+
 
 ## list :
 https://www.cnblogs.com/welhzh/p/6782297.html
@@ -68,6 +70,10 @@ eval $${local_ip_v4}
 
 Database connections are defined with DSN in XML configuration parameters like "core-db-dsn" and "odbc-dsn".
 
+CMD : 
+
+sofia status
+
 ----------------------------------------------------------
 
 ----------------------------------------------------------
@@ -91,3 +97,15 @@ to the 6xx
 
 
 ----------------------------------------------------------
+
+
+About log from android device : 
+
+Since Android 7.0, logcat has --pid filter option, and pidof command is available, replace com.example.app to your package name.
+(ubuntu terminal / Since Android 7.0)
+
+adb logcat --pid=`adb shell pidof -s com.example.app`
+or
+
+adb logcat --pid=$(adb shell pidof -s com.example.app)
+
