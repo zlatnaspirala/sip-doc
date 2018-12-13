@@ -21,6 +21,7 @@ DSN : Data Source Names.
 
 A.C.L. stands for Access Control List and is a list of permissions associated with an object. The list defines what network entities are allowed to access the object.
 
+ESL Program
 
 ## list :
 https://www.cnblogs.com/welhzh/p/6782297.html
@@ -73,6 +74,10 @@ Database connections are defined with DSN in XML configuration parameters like "
 CMD : 
 
 sofia status
+
+
+CLI <=> event socket <=> FREESwitch
+
 
 ----------------------------------------------------------
 
