@@ -78,12 +78,13 @@ sofia status
 
 CLI <=> event socket <=> FREESwitch
 
+// fix incopactibile media param
+<param name="inbound-proxy-media" value="true"/>
 
 ----------------------------------------------------------
 
 ----------------------------------------------------------
 ## PJSIP
-
 
 redicertion in pjsip:
 https://trac.pjsip.org/repos/wiki/SIP_Redirection?format=pdf
