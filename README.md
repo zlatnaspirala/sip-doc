@@ -14,6 +14,11 @@
 - FQDN (fully qualified domain name).
 
  -The public switched telephone network (PSTN) is the aggregate of the world's circuit-switched telephone networks that are operated by national, regional, or local telephony operators, providing infrastructure and services for public telecommunication.
+ 
+ -ATA (Analog Telephony Adaptor)
+ -SIP VoIP Gateways (Digital, BRI, Analog FXO & FXS)
+ -Internet Telephony Service Providers (ITSP)
+
 
 A "User Agent" ("UA") is an application used for handling a certain network protocol; the network protocol in <b>Sofia's</b> case is SIP. Sofia is the general name of any User Agent in FreeSWITCH using the SIP network protocol.
 
