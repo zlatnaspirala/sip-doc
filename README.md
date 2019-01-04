@@ -85,8 +85,13 @@ eval $${local_ip_v4}
 
 Database connections are defined with DSN in XML configuration parameters like "core-db-dsn" and "odbc-dsn".
 
-CMD : 
+About webRTC integration , default cert from freeswitch allow only for profile 'brian' (not sure 100%).
 
+ Use client : SIP.js
+
+## CMD : 
+
+sofia status profile internal reg
 sofia status
 
 
